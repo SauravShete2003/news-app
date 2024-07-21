@@ -1,0 +1,18 @@
+.news-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.input-box{
+    display: block;
+    margin: 5px auto;
+    border-radius: 20px;
+    width: 400px;
+    height: 35px;
+    padding: 0 5px;
+    border: 2px solid black;
+}
+.input-box:focus , .input-box:active{
+    outline: none;
+}
