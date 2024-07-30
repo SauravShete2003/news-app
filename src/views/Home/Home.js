@@ -5,7 +5,7 @@ import NewsArticles from "../../components/NewsArticles/NewsArticles";
 
 function Home() {
   const [news, setNews] = useState([]);
-  const [serachQuery, setSearchQuery] = useState("pune");
+  const [serachQuery, setSearchQuery] = useState("Maharashtra");
   const loadNews = async () => {
     try {
       const response = await axios.get(
