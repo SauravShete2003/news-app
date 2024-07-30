@@ -26,8 +26,8 @@ function Home() {
   }, [serachQuery]);
 
   return (
-    <div>
-      <h1>News App</h1>
+    <div className="home-container">
+      <h1 className="heading">News App</h1>
       <input
         type="text"
         placeholder="Search..."

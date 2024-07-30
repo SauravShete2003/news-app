@@ -24,7 +24,7 @@ function NewsArticles({
         ...
       </p>
       <a href={url} target="_blank" className="read-more-btn">
-        read More
+      <button className="button">Read More</button>
       </a>
     </div>
   );
